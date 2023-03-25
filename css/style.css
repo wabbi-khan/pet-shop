@@ -538,7 +538,7 @@ section {
     transform: rotate(0);
   }
 }
-.about button {
+.read-more button {
   position: relative;
   display: inline-block;
   cursor: pointer;
