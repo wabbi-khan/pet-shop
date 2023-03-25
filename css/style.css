@@ -227,6 +227,9 @@ section {
 .home .content .btn::before {
   background: #fff;
 }
+.home h2 {
+  display: none;
+}
 .home .wave {
   position: absolute;
   bottom: 0;
@@ -763,7 +766,7 @@ button:hover .button-text {
 
 .footer {
   position: relative;
-  background: url(../image/footer_background.jpg) no-repeat;
+  background: url(../image/ShinyOverlay.svg) no-repeat;
   background-position: center;
   background-size: center;
   padding-top: 10rem;
@@ -857,5 +860,16 @@ button:hover .button-text {
   }
   .header .login-form {
     width: 90%;
+  }
+}
+@media (max-width: 600px) {
+  .home {
+    background-position: 25% 50%;
+  }
+  .home .content {
+    display: none;
+  }
+  button.learn-more {
+    width: 15rem;
   }
 }/*# sourceMappingURL=style.css.map */
