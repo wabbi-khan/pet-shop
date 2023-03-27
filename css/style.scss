@@ -885,6 +885,14 @@ button:hover .button-text {
     //   bottom: 0;
     // }
   }
+  .about {
+    .content {
+      text-align: center;
+      h3 {
+        padding: 0 30px;
+      }
+    }
+  }
   button.learn-more {
     width: 15rem;
   }

@@ -869,6 +869,12 @@ button:hover .button-text {
   .home .content {
     display: none;
   }
+  .about .content {
+    text-align: center;
+  }
+  .about .content h3 {
+    padding: 0 30px;
+  }
   button.learn-more {
     width: 15rem;
   }
