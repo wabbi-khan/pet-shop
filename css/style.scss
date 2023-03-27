@@ -135,11 +135,18 @@ section {
     transform: translateY(0rem);
   }
   .logo {
-    font-size: 2.5rem;
-    color: $black;
+    font-size: 2rem;
+    color: $carrot-color;
     font-weight: bolder;
-    i {
-      color: $carrot-color;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    // i {
+    //   color: $carrot-color;
+    // }
+    img {
+      width: 50px;
     }
   }
   .navbar a {
@@ -238,11 +245,15 @@ section {
   .content {
     width: 50rem;
     h3 {
-      font-size: 6rem;
+      font-size: 3.5rem;
       color: $white;
       padding-bottom: 1rem;
       span {
         color: $carrot-color;
+      }
+      .capLine {
+        color: white;
+        font-size: 3rem;
       }
     }
     .btn {
@@ -450,7 +461,7 @@ section {
 
 .home button {
   position: relative;
-  padding: 15px 45px;
+  padding: 10px 35px;
   background: $carrot-color;
   font-size: 17px;
   font-weight: 500;
