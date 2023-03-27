@@ -64,7 +64,7 @@ section {
   left: 0;
   height: 100%;
   width: 100%;
-  background: #130f40;
+  background: #ecd448;
   z-index: -1;
   transition: 0.2s linear;
   -webkit-clip-path: circle(0% at 0% 5%);
@@ -175,7 +175,8 @@ section {
   margin: 1.5rem 0;
 }
 .header .login-form .btn:hover {
-  background: #130f40;
+  background: #ecd448;
+  border-color: #ecd448;
 }
 .header .login-form .links {
   display: flex;
@@ -741,7 +742,8 @@ button:hover .button-text {
   text-align: center;
 }
 .contact form .btn:hover {
-  background: #130f40;
+  background: #ecd448;
+  border-color: #ecd448;
 }
 .contact form h3 {
   font-size: 3rem;

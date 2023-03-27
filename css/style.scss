@@ -28,7 +28,9 @@ $box-shadow: 0 0.5rem 1.5rem rgba(0, 0, 0, 0.1);
   width: 100%;
   text-align: center;
   &:hover {
-    background: $black;
+    // background: $black;
+    background: #ecd448;
+    border-color: #ecd448;
   }
 }
 
@@ -95,7 +97,8 @@ section {
     left: 0;
     height: 100%;
     width: 100%;
-    background: $black;
+    // background: $black;
+    background: #ecd448;
     z-index: -1;
     transition: 0.2s linear;
     clip-path: circle(0% at 0% 5%);
